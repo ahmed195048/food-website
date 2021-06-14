@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>project of food</title>
+    <link rel="stylesheet" href="page.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+    <script src="pag.js"></script>
+</head>
+
+<body">
+    <!--start header-->
+    <header>
+        <nav>
+            <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <a href="index.html" target="_self">Home</a>
+                <a href="menu.html" target="_self">Menu</a>
+                <a href="shif.html" target="_self">Chef</a>
+                <a href="blog.html">Bolg</a>
+                <a href="content.html">contact</a>
+            </div>
+
+            <div id="main">
+                <a class="openbtn" onclick="openNav()">☰</a>
+            </div>
+            <section class="nav-logo">
+                <a href="index.html" target="_self">
+                    <img src="https://mrkzgulfup.com/uploads/1585335891351.png" alt="PAHU">
+                </a>
+            </section>
+            <section class="navbar">
+                <ul>
+                    <li><a href="index.html" target="_self">Home</a>
+                    <li><a href="menu.html" target="_self">Menu</a>
+                    <li><a href="shif.html" target="_self">Chef</a>
+                    <li><a href="blog.html">Bolg</a>
+                    <li><a href="content.html">contact</a>
+                </ul>
+            </section>
+            <section class="nav-icon">
+                <i class="fas fa-search"></i>
+                <i class="far fa-heart"></i>
+                <i class="fas fa-cart-plus"></i>
+            </section>
+        </nav>
+        <div class="main">
+            <div class="login-wrap">
+                <div class="login-html">
+                    <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1"
+                        class="tab">Sign
+                        In</label>
+                    <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign
+                        Up</label>
+                    <div class="login-form">
+                        <form id="myForm" action="thanks.html" onsubmit="return validate()">
+                            <div class="sign-up-htm">
+                                <div class="group">
+                                    <label for="user" class="label">Username</label>
+                                    <input id="user" type="text" class="input" required>
+                                </div>
+                                <div class="group">
+                                    <label for="pass" class="label">Password</label>
+                                    <input id="password" type="password" class="input" data-type="password" required maxlength="8">
+                                </div>
+                                <div class="group">
+                                    <label for="pass" class="label">Phone</label>
+                                    <input id="telephone" type="tel" class="input" data-type="Phone" required  placeholder="123-456-789">
+                                </div>
+                                <div class="group">
+                                    <label for="pass" class="label">Email Address</label>
+                                    <input id="pass" type="email" class="input" required>
+                                </div>
+                                <div class="group">
+                                    <label for="male" class="gener-lab">Male</label>
+                                    <input type="radio" id="male" name="gener" class="gener-r" required>
+                                    <label for="famel" class="gener-lab">famel</label>
+                                    <input type="radio" id="famel" name="gener" class="gener-r" readonly>
+                                </div>
+                                <div class="group">
+                                    <input type="submit" class="button" id="check" value="Sign Up">
+                                </div>
+                            </div>
+                        </form>
+                        <form id="myForm2" action="thanks.html" onsubmit="return validate()" method="post">
+                            <div class="sign-in-htm">
+                                <div class="group">
+                                    <label for="user" class="label">Username</label>
+                                    <input id="user" type="text" class="input" disabled>
+                                </div>
+                                <div class="group">
+                                    <label for="pass" class="label">Password</label>
+                                    <input id="password2" type="password" class="input" data-type="password" disabled>
+                                </div>
+                                <div class="group">
+                                    <input id="check" type="checkbox" class="check" checked>
+                                    <label for="check"><span class="icon"></span> Keep me Signed in</label>
+                                </div>
+                                <div class="group">
+                                    <input type="submit" class="button" value="Sign In">
+                                </div>
+                                <div class="hr"></div>
+                                <div class="foot-lnk">
+                                    <a href="#forgot">Forgot Password?</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <br><br><br><br><br><br><br><br><br><br> <br>
+        </div>
+    </header>
+    <article class="contact">
+        <section class="contact-info">
+            <section class="contact-box">
+                <h3>call us now </h3>
+                <p>office telephone : 01098875914</p>
+                <p>hotline : 906-2721</p>
+            </section>
+            <section class="contact-box">
+                <h3>come visit us </h3>
+                <p>123 mharm bk</p>
+                <p>alex , egypt</p>
+            </section>
+            <section class="contact-box">
+                <h3>send a messenge</h3>
+                <p>email : moga201012@gmail.com</p>
+                <p>lnquiries : support@pahu.vn</p>
+            </section>
+        </section>
+        <section class="foot">
+            <section class="foot-box">
+                <a href="index.html" target="_self"><img src="https://mrkzgulfup.com/uploads/1585335891351.png"
+                        alt=""></a>
+                <section class="foot-icon">
+                    <i class="fab fa-facebook-square fa-2x"></i>
+                    <i class="fab fa-twitter-square fa-2x"></i>
+                    <i class="fab fa-instagram fa-2x"></i>
+                    <i class="fab fa-youtube fa-2x"></i>
+                    <i class="fab fa-linkedin fa-2x"></i>
+                </section>
+            </section>
+            <section class="foot-box">
+                <h3>hours work</h3>
+                <p>monday -friday: 8:00 am - 17:00 pm .</p>
+                <p>saturday: 09:00 am - 12:30pm .</p>
+            </section>
+            <section class="foot-box">
+                <h3>newsletter</h3>
+                <form action="#" method="post">
+                    <input type="email" placeholder="enter your email..">
+                </form>
+                <p>Sign up to get exclusive offers from our favorite brands and to be well up in the news .</p>
+            </section>
+        </section>
+        </section>
+    </article>
+    <!--end contact-->
+
+    <!--start footer-->
+    <footer>
+        pahu coding by Ahmed Hassan
+    </footer>
+    <!--end footer-->
+    </body>
+
+</html>
